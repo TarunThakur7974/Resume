@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Resume/static/css/main.50f40107.css",
+    "main.js": "/Resume/static/js/main.6f1b6bd7.js",
+    "static/js/787.a86796b9.chunk.js": "/Resume/static/js/787.a86796b9.chunk.js",
+    "static/media/My photo.jpg": "/Resume/static/media/My photo.e315e45a0a2490fc2969.jpg",
+    "static/media/Tic.jpg": "/Resume/static/media/Tic.afae929a7c9d4a3b5fba.jpg",
+    "static/media/C.png": "/Resume/static/media/C.ca323b325816f40cf155.png",
+    "static/media/React.png": "/Resume/static/media/React.52de6422409ad1571d1f.png",
+    "static/media/HTML.png": "/Resume/static/media/HTML.a92a549a591f4acb527a.png",
+    "static/media/Todo.png": "/Resume/static/media/Todo.825a37a3b9fe330afdc5.png",
+    "static/media/instagram.png": "/Resume/static/media/instagram.56d3c2ef9b43e98875c0.png",
+    "static/media/CSS.png": "/Resume/static/media/CSS.4a6549b8c2b4cda8bb88.png",
+    "static/media/JS.png": "/Resume/static/media/JS.3dfb665e058d08c99f28.png",
+    "static/media/Typing.webp": "/Resume/static/media/Typing.efa027880d678aa006a9.webp",
+    "index.html": "/Resume/index.html",
+    "main.50f40107.css.map": "/Resume/static/css/main.50f40107.css.map",
+    "main.6f1b6bd7.js.map": "/Resume/static/js/main.6f1b6bd7.js.map",
+    "787.a86796b9.chunk.js.map": "/Resume/static/js/787.a86796b9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.50f40107.css",
+    "static/js/main.6f1b6bd7.js"
+  ]
+}
