@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,300&family=Nanum+Gothic&family=Rajdhani:wght@300&family=Signika+Negative&family=Tilt+Neon&display=swap');
+
+@media (max-width: 560px) {
+    .navbar {
+        height: 500px;
+        gap: 20%;
+    }
+
+    .navs a {
+        margin-top: 20px;
+    }
+}
+
+
+
+@media (min-width: 560px) {
+    .navbar {
+        gap: 10%;
+        background-color: black;
+        box-shadow: 1px 1px 10px gray;
+        height: 100px;
+        margin-top: 0px;
+    }
+
+    .navs a {
+        margin-top: 0px;
+    }
+}
+
+@media (max-width: 530px) {
+    .mypic {
+        width: 140%;
+    }
+}
+
+@media (min-width: 530px) {
+    .data {
+        font-size: 150%;
+    }
+
+    .mypic {
+        width: 400px;
+    }
+}
+
+@media (min-width: 1196px) {
+    .paraguid {
+        text-align: center;
+        font-size: 22px;
+        margin: 5px;
+    }
+}
+@media (max-width: 597px) {
+    .paraguid {
+        text-align: center;
+        font-size: 20px;
+        margin: 5px 0px;
+    }
+}
+
+@media (max-width: 450px) {
+    .paraguid {
+        text-align: center;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 1115px) {
+    .media {
+        height: 50px;
+    }
+
+}
+
+@media (max-width: 416px) {
+    .media {
+        height: 200px;
+    }
+}
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: rgb(66 180 255 / 27%);
+    font-family: 'Tilt Neon', cursive;
+    margin: 0%;
+    padding: 0%;
+}
+
+.navbar {
+    /* background-color: black;
+    box-shadow: 1px 1px 10px gray; */
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    font-size: 22px;
+    border-radius: 25px;
+    flex-wrap: wrap;
+}
+
+.main {
+    position: sticky;
+    top: 20px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.navs a {
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    box-shadow: 1px 1px 10px rgb(1 0 47);
+    border-radius: 15px;
+    padding: 6px;
+}
+
+.navs a:hover {
+    text-decoration: underline;
+}
+
+.navs a:active {
+    color: cyan;
+}
+
+.head {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+.head h1 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 32px;
+    height: 150px;
+    width: 500px;
+    border: 8px solid #9f9f9f;
+    border-radius: 25px;
+}
+
+.about {
+    box-sizing: border-box;
+    background: linear-gradient(to right, rgb(6 3 3), #263452);
+    color: white;
+    border-radius: 40px;
+    padding: 50px;
+    font-family: 'Signika Negative', sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 28%;
+    margin: 50px;
+}
+
+img {
+    border-radius: 20px;
+}
+
+
+.about p {
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.data strong {
+    font-family: 'Signika Negative', sans-serif;
+}
+
+.educationH {
+    box-sizing: border-box;
+    background: linear-gradient(to right, rgb(193 193 193), #4677e2);
+    color: white;
+    border-radius: 40px;
+    padding: 30px;
+    font-family: 'Signika Negative', sans-serif;
+    display: flex;
+    justify-content: center;
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
+    /* gap: 28%; */
+    margin: 40px;
+}
+
+.education {
+    height: 100px;
+    gap: 5%;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.education img {
+    height: 110px;
+}
+
+.hone {
+    margin: 33px;
+    text-align: center;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .react {
+        animation: App-logo-spin infinite 15s linear;
+    }
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+.educa_data {
+    box-sizing: border-box;
+    /* background: linear-gradient(to right, rgb(193 193 193), #4677e2);
+    color: white; */
+    border-radius: 40px;
+    padding: 30px;
+    font-family: 'Signika Negative', sans-serif;
+    display: flex;
+    flex-direction: column;
+    font-size: 27px;
+    gap: 5%;
+    margin: 30px 60px;
+}
+
+/* .educa_data>p {} */
+
+.paraone {
+    /* font-family: 'Tilt Neon', cursive; */
+    text-align: center;
+    font-size: 25px;
+    margin: 0px 0px 40px 0px;
+}
+
+.project {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10%;
+}
+
+.project a {
+    color: black;
+    text-decoration: none;
+}
+
+.project a:hover {
+    text-decoration: underline black;
+}
+
+.cards {
+    margin: 80px 20px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.cards p {
+    font-size: 25px;
+    margin: 10px 0px;
+}
+
+.projectsH {
+    box-sizing: border-box;
+    background: linear-gradient(to right, rgb(0 0 0), #5d659d);
+    color: white;
+    border-radius: 40px;
+    padding: 30px;
+    font-family: 'Signika Negative', sans-serif;
+    display: flex;
+    justify-content: center;
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
+    /* gap: 28%; */
+    margin: 40px;
+}
+
+.project img {
+    height: 100px;
+}
+
+.problems {
+    box-sizing: border-box;
+    background: linear-gradient(to right, rgb(255 0 0), #1f100e);
+    color: white;
+    border-radius: 40px;
+    padding: 30px;
+    font-family: 'Signika Negative', sans-serif;
+    display: flex;
+    justify-content: center;
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
+    /* gap: 28%; */
+    margin: 40px;
+}
+
+.problem {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    text-align: justify;
+}
+
+.ulproblem {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.ulproblem li {
+    font-size: 22px;
+    margin: 10px;
+}
+
+footer {
+    gap: 10%;
+    background-color: #1f100e;
+    height: 150px;
+    display: flex;
+    color: white;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+footer img {
+    border-radius: none;
+    filter: invert(100%);
+    height: 50px;
+}
